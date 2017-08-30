@@ -14,7 +14,7 @@ let response = https.get(url, function(res){
 	});
 
 	res.on('end', function(res){
-		ret = JSON.parse(body);
+		let ret = JSON.parse(body);
 		response = ret.data;
 	});
 }).on('error', function(e){
