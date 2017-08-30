@@ -15,13 +15,13 @@ let response = http.get(url, function(res){
 
 	res.on('end', function(res){
 		let data = JSON.parse(body);
-		//let response = array.data;
+		let response = data.array;
 console.log(data);
 	});
 }).on('error', function(e){
 	console.log(e.message);
 });
 
-exports.index = function(req, res){
-	res.render('index', { title: 'Express', data: response});
+exports.index = function(req, res, next){
+	res.render('index', { title: 'Express', array: response});
 };
