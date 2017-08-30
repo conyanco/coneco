@@ -14,8 +14,8 @@ let response = http.get(url, function(res){
 	});
 
 	res.on('end', function(res){
-		let ret = JSON.parse(body);
-		response = ret.data;
+		let array = JSON.parse(body);
+		response = array.data;
 	});
 }).on('error', function(e){
 	console.log(e.message);
