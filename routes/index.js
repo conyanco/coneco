@@ -15,7 +15,7 @@ let response = http.get(url, function(res){
 
 	res.on('end', function(res){
 		let array = JSON.parse(body);
-		response = array.data;
+		let response = array.data;
 	});
 }).on('error', function(e){
 	console.log(e.message);
