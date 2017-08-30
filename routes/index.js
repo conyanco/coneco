@@ -15,7 +15,7 @@ let response = http.get(url, function(res){
 
 	res.on('end', function(res){
 		let data = JSON.parse(body);
-		let response = data.array;
+		let text = data.array;
 console.log(data);
 	});
 }).on('error', function(e){
@@ -23,5 +23,5 @@ console.log(data);
 });
 
 exports.index = function(req, res, next){
-	res.render('index', { title: 'Express', array: response});
+	res.render('index', { title: 'Express', array: text});
 };
