@@ -18,8 +18,11 @@ http.get(url, (res) => {
 
   res.on('end', (res) => {
       res = JSON.parse(body);
-      console.log(res);
-console.log(res.body);
+Object.key(res).forEeach(function(key){
+let value = this[key];
+console.log(key:value),res)
+ //     console.log(res);
+//console.log(res.body);
   });
 }).on('error', (e) => {
   console.log(e.message); //エラー時
