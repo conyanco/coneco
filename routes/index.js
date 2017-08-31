@@ -27,7 +27,7 @@ http.get(URL, (res) => {
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Express', array: text });
+  res.render('index', { title: 'Express'});
 });
 
 module.exports = router;
