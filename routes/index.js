@@ -20,7 +20,6 @@ http.get(url, (res) => {
       res = JSON.parse(body);
       console.log(res);
 console.log(res.body);
-console.log(res.body.title);
   });
 }).on('error', (e) => {
   console.log(e.message); //エラー時
