@@ -20,9 +20,10 @@ http.get(url, (res) => {
       res = JSON.parse(body);
 Object.keys(res).forEach(function(key){
 let value = this[key];
-console.log(key:value),res);
- //     console.log(res);
-//console.log(res.body);
+console.log(key:value);
+},res);
+ console.log(res);
+console.log(res.body);
   });
 }).on('error', (e) => {
   console.log(e.message); //エラー時
