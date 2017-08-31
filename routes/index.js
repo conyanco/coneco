@@ -18,9 +18,9 @@ http.get(url, (res) => {
 
   res.on('end', (res) => {
       res = JSON.parse(body);
-Object.key(res).forEeach(function(key){
+Object.key(res).forEach(function(key){
 let value = this[key];
-console.log(key:value),res)
+console.log(key:value),res);
  //     console.log(res);
 //console.log(res.body);
   });
@@ -31,7 +31,7 @@ console.log(key:value),res)
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Express'});
+  res.render('index', { title: 'Express',key: value});
 });
 
 module.exports = router;
