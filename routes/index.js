@@ -15,7 +15,7 @@ http.get(url, (res) => {
   });
   res.on('end', (res) => {
     res = JSON.parse(body);
-    let reskey = Object.key(res);
+    let reskey = Object.keys(res);
     console.log(reskey);           
 //Object.keys(res).forEach(function(key){
 //      let value = this[key];
