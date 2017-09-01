@@ -17,9 +17,12 @@ http.get(url, (res) => {
   });
 
   res.on('end', (res) => {
-      res = JSON.parse(body);           Object.keys(res).forEach(function(key){
-      let value = this[key];
-      console.log(key, value);},res);
+      res = JSON.parse(body);
+let reskey = object.key(res);
+console.log(reskey);           
+//Object.keys(res).forEach(function(key){
+//      let value = this[key];
+//      console.log(key, value);},res);
  //     console.log(res);
 //      console.log(res.body);
 }).on('error', (e) => {
