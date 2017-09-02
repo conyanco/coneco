@@ -12,7 +12,7 @@ http.get(url, (res) => {
     body += chunk;
   });
   res.on('end', (res) => {
-//    res = JSON.parse(body);
+    res = JSON.parse(body);
   //  let reskey = Object.keys(res);
 /*    console.log(res.body);
     for (let result in res){
