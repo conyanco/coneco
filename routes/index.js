@@ -12,13 +12,17 @@ http.get(url, (res) => {
     body += chunk;
   });
   res.on('end', (res) => {
-    res = JSON.parse(body);
+//    res = JSON.parse(body);
   //  let reskey = Object.keys(res);
-    console.log(res.body);
+/*    console.log(res.body);
     for (let result in res){
       console.log(result[res]);
     }
-
+*/
+    JSON.parse(JSON.stringify(res), function(key, value){
+      console.log(key + ":" + value);
+      return value;
+    });
   }).on('error', (e) => {
     console.log(e.message);
   });
@@ -27,7 +31,7 @@ http.get(url, (res) => {
 
 /* GET home page. */
   router.get('/', function(req, res) {
-  res.render('index', { title: 'Express',title: reskey});
+  res.render('index', { title: 'Express',title: value});
 });
 
 module.exports = router;
