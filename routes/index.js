@@ -14,12 +14,11 @@ http.get(url, (res) => {
   res.on('end', (res) => {
     res = JSON.parse(body);
     let reskey = Object.keys(res);
-    console.log(reskey.body);           
-//Object.keys(res).forEach(function(key){
-//      let value = this[key];
-//      console.log(key, value);},res);
- //     console.log(res);
-//      console.log(res.body);
+    console.log(reskey.body);
+    for (let result in reskey){
+      console.log(result);
+    }
+
   }).on('error', (e) => {
     console.log(e.message);
   });
