@@ -13,10 +13,10 @@ http.get(url, (res) => {
   });
   res.on('end', (res) => {
     res = JSON.parse(body);
-    let reskey = Object.keys(res);
-    console.log(reskey.body);
-    for (let result in reskey){
-      console.log(result[reskey]);
+  //  let reskey = Object.keys(res);
+    console.log(res.body);
+    for (let result in res){
+      console.log(result[res]);
     }
 
   }).on('error', (e) => {
