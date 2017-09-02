@@ -16,7 +16,7 @@ http.get(url, (res) => {
     let reskey = Object.keys(res);
     console.log(reskey.body);
     for (let result in reskey){
-      console.log(result);
+      console.log(result[reskey]);
     }
 
   }).on('error', (e) => {
