@@ -1,5 +1,3 @@
-
-
 'use strict'
 
 const express = require('express');
@@ -16,7 +14,7 @@ http.get(url, (res) => {
   res.on('end', (res) => {
     res = JSON.parse(body);
     let reskey = Object.keys(res);
-    console.log(reskey);           
+    console.log(reskey.body);           
 //Object.keys(res).forEach(function(key){
 //      let value = this[key];
 //      console.log(key, value);},res);
@@ -30,7 +28,7 @@ http.get(url, (res) => {
 
 /* GET home page. */
   router.get('/', function(req, res) {
-  res.render('index', { title: 'Express',key: value});
+  res.render('index', { title: 'Express',title: reskey});
 });
 
 module.exports = router;
