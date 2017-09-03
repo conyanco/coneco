@@ -13,12 +13,6 @@ http.get(url, (res) => {
   });
   res.on('end', (res) => {
     res = JSON.parse(body);
-  //  let reskey = Object.keys(res);
-/*    console.log(res.body);
-    for (let result in res){
-      console.log(result[res]);
-    }
-*/
     JSON.parse(JSON.stringify(res), function(key, value){
       console.log(key + ":" + value);
       return value;
@@ -30,8 +24,15 @@ http.get(url, (res) => {
 
 
 /* GET home page. */
-  router.get('/', function(req, res) {
+  router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express',key: value});
+});
+
+router.post('/', function(req, res, next){
+	var title = req.body.title.value;
+	console.log(title)
+	res.render('index', { search: value});
+	res.end();
 });
 
 module.exports = router;
