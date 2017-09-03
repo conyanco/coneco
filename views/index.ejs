@@ -8,10 +8,10 @@
     <h1><%= title %></h1>
     <%# data.forEach(function(array){ %>
     <%# array.result.forEach(function(result){ %>
-    <h2><%#= array.Name %></h2>
+    <h2><%- value.Name %></h2>
     <%# }) %>
    <script type="text/javascript">
-  	 var data = <%- JSON.stringify(value) %>
+  	 var data = <%#- JSON.stringify(value) %>
    </script>
     <div class="wrapper">
     <form action="/search" method="post" class="board-form">
