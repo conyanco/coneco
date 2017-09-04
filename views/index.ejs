@@ -12,19 +12,19 @@
     <%# 投稿した内容がここに %>
     <div>
       <% if(value) { %>
-        <% for(var i = 0; i < posts.length; i++) { %>
+        <% for(var i = 0; i < value.length; i++) { %>
           <h2>
-            <%= value[i].name %>
+            <%= value[i].Title %>
           </h2>
           <p>
-            <%= value[i].text %>
+            <%= value[i].Description %>
           </p>
         <% } %>
       <% } %>
     </div>
     <%# 新しく追加した投稿用のフォーム %>
     <form action="/search" method="post">
-      <input type="text" name="name" placeholder="名前を入力"/>
+      <input type="text" name="keyword" placeholder="名前を入力"/>
       <textarea name="text">
 
       </textarea>
