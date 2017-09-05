@@ -5,7 +5,7 @@ const router = express.Router();
 const http = require('http');
 
 const app = express();
-app.use(express.bodyDecoder());
+
 // 初回アクセスの処理
 app.get('/', function(req, res){
   res.render('post.ejs', { locals: { keyword: "" } });
