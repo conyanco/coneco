@@ -51,4 +51,4 @@ router.post('/', function(req, res, next){
 	res.end();
 });
 
-module.exports = search;
+module.exports = router;
