@@ -5,12 +5,17 @@ const router = express.Router();
 const http = require('http');
 
 const app = express();
+app.use(express.bodyDecoder());
+// 初回アクセスの処理
+app.get('/', function(req, res){
+  res.render('post.ejs', { locals: { keyword: "" } });
+});
 app.post('/', function(req, res){
-  console.log(req.query); // for logging
+  console.log(req.body); // for logging
   var keyword = "";
   // NAMEパラメタが空でなければ画面に表示
-  if (req.query.keyword) {
-    name = req.query.keyword;
+  if (req.body.keyword) {
+    name = req.body.keyword;
   }
   res.render('/', { locals: { keyword: keyword } });
 });
