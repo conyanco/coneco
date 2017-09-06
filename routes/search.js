@@ -32,6 +32,7 @@ http.get(url, (res) => {
     JSON.parse(JSON.stringify(res), function(key, value){
       console.log(key + ":" + value);
       return value;
+console.log(res);
     });
   }).on('error', (e) => {
     console.log(e.message);
