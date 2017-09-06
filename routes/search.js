@@ -33,7 +33,7 @@ http.get(url, (res) => {
       console.log(key + ':' + value);
 //      return value;
 //console.log(res);
-return.res.render('index');
+return.res.render('index')
     });
   }).on('error', (e) => {
     console.log(e.message);
