@@ -12,10 +12,10 @@ router.get('/', function(req, res){
 });
 router.post('/', function(req, res){
   console.log(req.body); // for logging
-  var keyword = "";
+  let keyword = "";
   // NAMEパラメタが空でなければ画面に表示
   if (req.body.keyword) {
-    name = req.body.keyword;
+    keyword = req.body.keyword;
   }
   res.render('/', { locals: { keyword: keyword } });
 });
@@ -30,9 +30,10 @@ http.get(url, (res) => {
   res.on('end', (res) => {
     res = JSON.parse(body);
     JSON.parse(JSON.stringify(res), function(key, value){
-      console.log(key + ":" + value);
-      return value;
-console.log(res);
+      console.log(key + ':' + value);
+//      return value;
+//console.log(res);
+return.res.render('index');
     });
   }).on('error', (e) => {
     console.log(e.message);
