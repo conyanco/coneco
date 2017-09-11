@@ -20,7 +20,7 @@ http.get(url, function(req, res, next){
     res.json(url);
 });
 
-app.get(url:keyword, function(req, res, next){
+app.get("/call:keyword", function(req, res, next){
     let result;
     for (i = 0; i < keyword.length; i++){
         if (url[i].id == req.params.keyword){
