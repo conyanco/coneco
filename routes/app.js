@@ -7,8 +7,8 @@ const base_url = 'http://shopping.yahooapis.jp/ShoppingWebService/V1/json/itemSe
 
 let category = '13457';
 
-if(keyword){
-return;
+if(keyword === false){
+return false;
 }else{
 let keyword = 'fashion';
 }
