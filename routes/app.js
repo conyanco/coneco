@@ -21,6 +21,11 @@ let url = base_url + keyword + '&category_id=' + category;
 // 写真リストを取得するAPI
 
 http.get(url, function(req, res, next){
+let body = '';
+  res.setEncoding('utf8');
+  res.on('data', (chunk) => {
+    body += chunk;
+});
     res.json(res.body);
 });
 
