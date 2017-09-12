@@ -13,7 +13,7 @@
     var xhr = new XMLHttpRequest();
     xhr.open("GET","/call");
     xhr.addEventListener("load", function(e){
-        var photoList = JSON.parse(xhr.responseText);
+        var result = JSON.parse(xhr.responseText);
         console.log(result);
     });
     xhr.send();
