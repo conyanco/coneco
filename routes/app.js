@@ -27,8 +27,9 @@ let body = '';
     body += chunk;
 });
     res.json(res.body);
+res.render(index, {
+title: 'test'});
 });
-
 app.get("/call:keyword", function(req, res, next){
     let result;
     for (i = 0; i < keyword.length; i++){
