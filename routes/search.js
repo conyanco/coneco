@@ -37,7 +37,7 @@ http.get(url, (res) => {
 router.post('/', function(req, res, next){
 	var title = req.body.title.value;
 	console.log(title)
-	res.render('index', { search: value});
+	res.render('index', {});
 	res.end();
 });
 
