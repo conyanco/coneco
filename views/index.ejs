@@ -11,7 +11,7 @@
     <div class="wrapper">
     <script>
     var xhr = new XMLHttpRequest();
-    xhr.open("GET","/call");
+    xhr.open("GET","/search");
     xhr.addEventListener("load", function(e){
         var result = JSON.parse(xhr.responseText);
         console.log(result);
