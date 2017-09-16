@@ -9,7 +9,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var search = require('./routes/search');
 
-var call = require('./routes/app');
+//var call = require('./routes/app');
 var app = express();
 
 // view engine setup
@@ -25,7 +25,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/call', app);
+//app.use('/call', app);
 app.use('/users', users);
 app.use('/search', search);
 
