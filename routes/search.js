@@ -20,7 +20,7 @@ http.get(url, (res) => {
   res.on('end', (res) => {
     res = JSON.parse(body);
     JSON.parse(JSON.stringify(res), function(key, value){
-      console.log(value);
+      console.log(key, value);
 
     });
   }).on('error', (e) => {
