@@ -1,8 +1,25 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+video {
+  opacity: 0.5; 
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  min-width: 100%; min-height: 100%; 
+  width: auto;
+  height: auto; 
+  z-index: 0;  
 }
