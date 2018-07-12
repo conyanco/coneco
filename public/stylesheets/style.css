@@ -9,7 +9,7 @@ a {
 }
 
 .wrapper {
-display: table;
+display: sticky;
 z-index: 2;
 position: relateve;
 margin:auto;
@@ -19,7 +19,7 @@ height:100%;
 }
 
 h1 {
-display: sticky;
+display: table;
 margin: auto;
 padding:.5em;
 vertical-align: middle;
