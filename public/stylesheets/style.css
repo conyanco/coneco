@@ -18,6 +18,9 @@ position: -webkit-sticky;
  background: transparent url(http://intrigen.cf/image/site_bg.gif) no-repaet center center / cover;
 }
 
+#sec01 {}
+#sec02 {background: #444;}
+
 h1 {
   display: table-call;
   position: relative;
