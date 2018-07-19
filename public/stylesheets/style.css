@@ -19,10 +19,13 @@ text-align: center;
   box-sizing: border-box;
  background: transparent url(http://intrigen.cf/image/site_bg.gif) no-repaet center center / cover;
 }
-
+@keyframes Color {
+0%{background:rgb(0,0,0);}
+100%{background:rgb(255, 0, 183);}
+}
 #sec01 {}
 #sec02 {background: #444;}
-
+#sec03 {animation: Color 1s ease}
 h1 {
   display: table-call;
   position: relative;
