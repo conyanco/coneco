@@ -25,7 +25,11 @@ text-align: center;
 }
 #sec01 {}
 #sec02 {background: #444;}
-#sec03 {animation: Color 2s ease 1 Forward;}
+#sec03 {
+background: #0000;
+animation: Color 2s ease 1 Forward;
+}
+
 h1 {
   display: table-call;
   position: relative;
