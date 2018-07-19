@@ -28,7 +28,8 @@ text-align: center;
 #sec03 {
 background: #ff0066;
 transition: 1s ease-in;
-animation: Color 2s ease 1 Forward;
+animation: Color 5s ease 1 Forward;
+color : #fff;
 }
 
 h1 {
