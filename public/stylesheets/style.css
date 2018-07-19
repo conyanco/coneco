@@ -20,12 +20,12 @@ text-align: center;
  background: transparent url(http://intrigen.cf/image/site_bg.gif) no-repaet center center / cover;
 }
 @keyframes Color {
-0%{background:rgb(0,0,0);}
-100%{background:rgb(255, 0, 183);}
+0%{background:#0000;}
+100%{background:#ff0066;}
 }
 #sec01 {}
 #sec02 {background: #444;}
-#sec03 {animation: Color 1s ease}
+#sec03 {animation: Color 1s ease 1;}
 h1 {
   display: table-call;
   position: relative;
