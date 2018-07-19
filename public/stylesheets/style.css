@@ -26,7 +26,8 @@ text-align: center;
 #sec01 {}
 #sec02 {background: #444;}
 #sec03 {
-background: #0000;
+background: #ff0066;
+transition: 1s ease-in;
 animation: Color 2s ease 1 Forward;
 }
 
