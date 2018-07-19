@@ -20,7 +20,7 @@ text-align: center;
  background: transparent url(http://intrigen.cf/image/site_bg.gif) no-repaet center center / cover;
 }
 @keyframes Color {
-0%{background:#0000;}
+0%{background:#000000;}
 100%{background:#ff0066;}
 }
 #sec01 {}
