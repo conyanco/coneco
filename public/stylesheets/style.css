@@ -41,6 +41,9 @@ font-family: 'Abril Fatface', cursive;
 /*box-shadow: 0 5px 20px 0px rgba(0,0,0,0.3);*/
 }
 
+ li {
+font-size: 2em;
+}
 
 video {
   opacity: 0.8;
