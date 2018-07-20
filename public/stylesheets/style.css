@@ -28,13 +28,14 @@ text-align: center;
 #sec03 {
 background: #ff0066;
 transition: 1s ease-in;
-animation: Color 5s ease 1 Forward;
+/*animation: Color 5s ease 1 Forward;*/
 color : #fff;
 }
 #sec04 { background: #ffff00;}
 
 #sec03 p {
 color; #fff;
+}
 h1 {
   display: table-call;
   position: relative;
