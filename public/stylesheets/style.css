@@ -31,6 +31,7 @@ transition: 1s ease-in;
 animation: Color 5s ease 1 Forward;
 color : #fff;
 }
+#sec04 { background: #ffff00;}
 
 #sec03 p {
 color; #fff;
