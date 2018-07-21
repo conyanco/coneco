@@ -25,7 +25,7 @@ text-align: center;
 #sec01 {}
 #sec02 {
 background: #444 url(https://dl.dropboxusercontent.com/s/rwtupquuazgp9qw/logo.png) no-repeat 50% 80%;
-background-size: 20%;
+background-size: 30%;
 }
 #sec03 {
 background: #ff0066;
@@ -35,6 +35,7 @@ color : #fff;
 }
 #sec04 {
 background: #ffff00 url(https://dl.dropboxusercontent.com/s/cgnrtzkf9xaoxvb/butterfly.png) no-repeat center;
+background-size: 30%;
 }
 
 #pagetop {
