@@ -24,7 +24,9 @@ text-align: center;
 100%{background:#ff0066;}
 }
 #sec01 {}
-#sec02 {background: #444 url(https://dl.dropboxusercontent.com/s/fs3z7vlwvvcwahu/logo.png) no-repaet right bottom;}
+#sec02 {
+background: #444 url(https://dl.dropboxusercontent.com/s/fs3z7vlwvvcwahu/logo.png) no-repeat right bottom;
+}
 #sec03 {
 background: #ff0066;
 transition: 1s ease-in;
