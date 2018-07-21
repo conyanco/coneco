@@ -17,7 +17,6 @@ text-align: center;
   height:100vh;
   padding: 50% 0;
   box-sizing: border-box;
- background: transparent url(http://intrigen.cf/image/site_bg.gif) no-repaet center center / cover;
 }
 @keyframes Color {
 0%{background:#000000;}
@@ -25,7 +24,7 @@ text-align: center;
 }
 #sec01 {}
 #sec02 {
-background: #444 url(https://dl.dropboxusercontent.com m/s/rwtupquuazgp9qw/logo.png) no-repeat right bottom;
+background: #444 url(https://dl.dropboxusercontent.com/s/rwtupquuazgp9qw/logo.png) no-repeat right bottom;
 }
 #sec03 {
 background: #ff0066;
