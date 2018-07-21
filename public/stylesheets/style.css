@@ -24,7 +24,8 @@ text-align: center;
 }
 #sec01 {}
 #sec02 {
-background: #444 url(https://dl.dropboxusercontent.com/s/rwtupquuazgp9qw/logo.png) no-repeat right bottom;
+background: #444 url(https://dl.dropboxusercontent.com/s/rwtupquuazgp9qw/logo.png) no-repeat center bottom;
+background-size: 10%;
 }
 #sec03 {
 background: #ff0066;
