@@ -34,7 +34,7 @@ transition: 1s ease-in;
 color : #fff;
 }
 #sec04 { 
-background: #ffff00 url(https://dl.dropboxusercontent.com/s/cgnrtzkf9xaoxvb/butterfly.png) no-repeat 100%;
+background: #ffff00 url(https://dl.dropboxusercontent.com/s/cgnrtzkf9xaoxvb/butterfly.png) no-repeat 100% 100%;
 }
 
 #pagetop {
