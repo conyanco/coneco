@@ -24,15 +24,22 @@ text-align: center;
 100%{background:#ff0066;}
 }
 #sec01 {}
-#sec02 {background: #444;}
+#sec02 {background: #444 url(https://dl.dropboxusercontent.com/s/fs3z7vlwvvcwahu/logo.png) no-repaet right bottom;}
 #sec03 {
 background: #ff0066;
 transition: 1s ease-in;
 /*animation: Color 5s ease 1 Forward;*/
 color : #fff;
 }
-#sec04 { background: #ffff00;}
+#sec04 { 
+background: #ffff00;
+}
 
+#pagetop {
+position: absolute;
+bottom: 0;
+width: 100%;
+}
 #sec03 p {
 color; #fff;
 }
