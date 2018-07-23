@@ -24,12 +24,13 @@ text-align: center;
 }
 #sec01 {}
 #sec02 {
-background: #444 url(https://dl.dropboxusercontent.com/s/rwtupquuazgp9qw/logo.png) no-repeat 50% 80%;
-background-size: 30%;
+background: #444;
 }
 #sec03 {
-background: #ff0066;
+background: #ff0066 url(https://dl.dropboxusercontent.com/s/rwtupquuazgp9qw/logo.png) no-repeat 50% 80%;
+background-size: 30%;
 transition: 1s ease-in;
+
 /*animation: Color 5s ease 1 Forward;*/
 color : #fff;
 }
