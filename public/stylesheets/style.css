@@ -39,7 +39,9 @@ color : #fff;
 background: #ffff00 url(https://dl.dropboxusercontent.com/s/cgnrtzkf9xaoxvb/butterfly.png) no-repeat center;
 background-size: 50%;
 }
-
+#sec06 {
+background: #ebebeb;
+}
 
 #pagetop {
 position: absolute;
