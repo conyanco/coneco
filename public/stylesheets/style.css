@@ -81,6 +81,13 @@ font-size: 2em;
 color: #fff;
 }
 
+p a:link,
+p a:hover,
+p a:visited {
+color: #fff;
+text-decoration: none;
+}
+
 video {
   opacity: 0.8;
   position: fixed;
