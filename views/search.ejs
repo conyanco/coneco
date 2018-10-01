@@ -1,0 +1,18 @@
+const https = require('https');
+// Bitcoin のレートを json で取得することができるAPI
+const URL = "https://coincheck.com/api/rate/btc_jpy";
+
+https.get(URL, function (res) {
+    var body = '';
+    res.setEncoding('utf8');
+    res.on('data', function (chunk) {
+        body += chunk;
+    });
+    res.on('data', function (chunk) {
+        // body の値を json としてパースしている
+        res = JSON.parse(body);
+        console.log(`現在のレートは${res.rate}円/Bitcoinだよ！！`);
+    })
+  }).on('error', function (e) {
+    console.log(e.message);
+});
