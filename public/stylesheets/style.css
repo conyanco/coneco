@@ -57,6 +57,7 @@ color; #fff;
 h1 {
   display: table-call;
   position: relative;
+line-height: 1;
   margin: auto;
   padding: .5em;
   vertical-align: middle;
