@@ -1,5 +1,5 @@
 'use strict'
-
+/*
 const express = require('express');
 const router = express.Router();
 const http = require('http');
@@ -27,7 +27,7 @@ http.get(url, (res) => {
     console.log(e.message);
   });
 });
-
+*/
 
 /* GET home page. */
   router.get('/', function(req, res, next) {
