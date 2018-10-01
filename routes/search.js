@@ -9,7 +9,7 @@ const base_url = 'https://itunes.apple.com/search?';
 //let category = '13457';
 let term = 'fashion';
 
-let url = base_url + term + '&category_id=' + category;
+let url = base_url + term;
 
 http.get(url, (res) => {
   let body = '';
