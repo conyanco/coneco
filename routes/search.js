@@ -7,7 +7,7 @@ const http = require('http');
 const base_url = 'https://itunes.apple.com/search?';
 
 //let category = '13457';
-let keyword = 'fashion';
+let term = 'fashion';
 
 let url = base_url + term + '&category_id=' + category;
 
