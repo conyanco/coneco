@@ -31,7 +31,7 @@ http.get(url, (res) => {
 
 /* GET home page. */
   router.get('/', function(req, res, next) {
-  res.send('index', { title: 'Express',key: value});
+  res.send('search', { title: 'Express',key: value});
 });
 
 router.post('/', function(req, res, next){
